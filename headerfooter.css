@@ -1,0 +1,252 @@
+
+body {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Akshar';
+}
+
+.container {
+max-width: 1440px;
+margin: 0 auto;
+padding: 0 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.header {
+background-color: #18372C;
+color: #fff;
+padding: 20px 0;
+position: relative;
+}
+
+.logo-image {
+width: 200px;
+height: auto;
+}
+
+.navigation {
+display: flex;
+align-items: center;
+}
+
+.nav-links {
+color: #fff;
+text-decoration: none;
+margin: 0 15px;
+font-weight: bold;
+transition: color 0.3s ease;
+}
+
+.navigation ul {
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+}
+
+.menu-icon {
+position: absolute;
+top: 50%;
+right: 20px;
+transform: translate(0%, -50%);
+cursor: pointer;
+z-index: 2;
+display: none;
+
+}
+
+.menu-icon::before {
+content: '\2630';
+font-size: 30px;
+color: #fff;
+}
+
+.menu-checkbox {
+display: none;
+}
+
+.menu-icon:hover {
+color: #ddd;
+}
+
+.menu-checkbox:checked + .navigation ul {
+display: flex;
+flex-direction: column;
+background-color: #18372C;
+position: absolute;
+top: 70px;
+left: 0;
+width: 100%;
+padding: 10px 0;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+z-index: 1;
+}
+
+.nav-links {
+margin: 10px 15px;
+}
+
+.forest-container {
+position: relative;
+text-align: center;
+}
+
+.forest-image {
+max-width: 100%;
+height: auto;
+display: block;
+margin: 0 auto;
+}
+
+.rainydayslogo {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+max-width: 80%;
+width: auto;
+z-index: 1;
+}
+
+.buttons-container {
+text-align: center;
+padding: 20px;
+}
+
+.buttons-container button {
+margin: 0 10px;
+}
+
+.footer {
+background-color: #18372C;
+color: #fff;
+padding: 20px;
+text-align: center;
+border-top: 2px solid #fff;
+height: 200px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.rainydayslogowhite img {
+width: 150px;
+height: auto;
+margin-right: 10px;
+}
+
+.contact-info {
+display: flex;
+align-items: center;
+}
+
+.contact-info>div {
+margin: 0 20px;
+}
+
+.follow-us img {
+margin-left: 5px;
+}
+
+.centeredmountain-image {
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin-top: 10px;
+}
+
+.adventure-text {
+color: #18372C;
+font-size: 64px;
+font-family: 'Akshar', sans-serif;
+z-index: 1;
+margin-bottom: 10px;
+text-align: center;
+}
+
+.adventure-text span {
+display: block;
+}
+
+.centeredmountain-image img {
+width: 739px;
+height: 193px;
+z-index: 0;
+}
+
+.menu-icon {
+font-size: 30px;
+color: #fff;
+cursor: pointer;
+display: none;
+}
+
+.menu-icon::before {
+content: '\2630';
+}
+
+.menu-checkbox {
+display: none;
+}
+
+.menu-icon:hover {
+color: #ddd;
+}
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+
+.menu-icon {
+display: block;
+}
+
+.menu-checkbox {
+display: none;
+}
+
+.navigation ul {
+display: none;
+flex-direction: column;
+align-items: flex-start;
+position: absolute;
+top: 70px;
+left: 0;
+width: 100%;
+background-color: #18372C;
+padding: 10px 0;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+z-index: 1;
+}
+
+.menu-checkbox:checked + .navigation ul {
+display: flex;
+flex-direction: column;
+align-items: center; 
+}
+
+.nav-links {
+margin: 10px 0; 
+}
+}
+
+
+
+@media only screen and (max-width: 767px) {
+
+.rainydayslogo {
+position: static;
+width: 100px;
+margin: auto;
+left: 0;
+transform: none;
+display: none
+}
+}
