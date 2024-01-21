@@ -1,0 +1,106 @@
+
+
+ 
+.jacket-frames-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-items: stretch;
+    margin-top: 20px;
+}
+
+.frame-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    margin-right: -5px;
+}
+
+.jacket-container {
+    flex: 0 0 300px;
+    color: #18372C;
+    border: 2px solid #18372C;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 360px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+}
+
+.frame-container:nth-child(3) {
+    align-self: flex-start;
+}
+
+.jacket-title img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.jacket-name {
+    display: inline-block;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 24px;
+    color: #18372C;
+    font-family: 'akshar';
+    font-weight: bold;
+}
+
+.jacket-price {
+    display: inline-block;
+    color: #18372C;
+    font-weight: bold;
+    font-family: 'akshar';
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 70px;
+    font-size: 24px;
+}
+
+.menscollection-title,
+.womenscollection-title {
+    display: inline-block;
+    width: 444px;
+    height: 393px;
+}
+
+.buttons-container button {
+    margin: 10px;
+}
+
+.line {
+    border: 0;
+    border-top: 2px solid #18372C;
+    margin: 100px 0;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .jacket-frames-container {
+        justify-content: center;
+    }
+
+    .frame-container {
+        margin-top: 20px;
+    }
+
+    .jacket-container {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+
+@media only screen and (max-width: 480px) {
+    .jacket-container {
+        height: auto;
+    }
+}
