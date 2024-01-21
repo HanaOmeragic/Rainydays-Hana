@@ -1,0 +1,439 @@
+
+.menu-line {
+    width: 1280px; 
+    height: 2px;
+    background-color: #18372C; 
+}
+
+        
+.shipping-line {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    position: relative;
+    margin-top: 50px; 
+}
+
+.lines {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 250px; 
+}
+
+       .line {
+           width: 455px;
+           height: 2px;
+           background-color: #18372C; 
+        }
+
+        .contact-info-text,
+        .payment-text,
+        .phone-number-text,
+        .shipping-info-text,
+        .name-text, 
+        .lastname-text, 
+        .home-address-text, 
+        .postal-code-text, 
+        .city-text, 
+        .country-text { 
+            font-size: 32px;
+            font-weight: 600; 
+            position: absolute;
+            top: -60px;
+            color: #18372C; 
+        }
+
+        .contact-info-text {
+            left: 0;
+            color:#18372C;
+        }
+
+        .payment-text {
+            right: 330px;
+            color:#18372C;
+        }
+
+        .phone-number-text {
+            right: 30px;
+            color:#18372C;
+        }
+
+        
+        .shipping-info-text {
+            font-size: 32px;
+            color: #18372C;
+            font-weight: 600; 
+            margin-bottom: 10px;
+            margin-top: 50px;
+        }
+
+        .email-square,
+        .phone-number-square,
+        .name-square, 
+        .lastname-square, 
+        .home-address-square, 
+        .postal-code-square, 
+        .city-square, 
+        .country-square { 
+            position: relative;
+            width: 455px;
+            height: 55px;
+            margin-top: 20px; 
+            background-color: #FFF;
+        }
+
+
+
+        .email-text,
+        .phone-number-text,
+        .name-text, 
+        .lastname-text, 
+        .home-address-text, 
+        .postal-code-text, 
+        .city-text, 
+        .country-text { 
+            font-size: 23px;
+            position: absolute;
+            top: -25px;
+            transform: translateY(-50%);
+            left: 10px;
+            color: #18372C;
+        }
+
+        .red-star {
+            color: red;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            right: 30px; 
+        }
+
+        .form-input {
+            width: calc(100% - 20px);
+            margin: 10px;
+            padding: 5px;
+            box-sizing: border-box;
+            border: 1px solid #18372C;
+            color:#18372C; 
+        }
+
+
+
+        .payment-images {
+          display: flex;
+          justify-content: flex-end;
+          position: absolute;
+          right: 100px;
+          top: 1380px; 
+        }
+
+        .payment-image {
+          width: 100px; 
+          margin-left: 20px; 
+        }
+
+
+
+
+        .card-number-square {
+    position: absolute;
+    top: 1500px; 
+    right: 0;
+    width: 455px;
+    height: 55px;
+    background-color: #FFF;
+}
+
+
+.card-number-text {
+    font-size: 23px;
+    color: #18372C;
+    position: absolute;
+    top: -25px;
+    transform: translateY(-50%);
+    right: 170px; 
+}
+
+.name-on-card-square {
+    position: absolute;
+    top: 1580px; 
+    right: 0;
+    width: 455px;
+    height: 55px;
+    background-color: #FFF;
+}
+
+.name-on-card-text {
+    font-size: 23px;
+    position: absolute;
+    top: -25px;
+    transform: translateY(-50%);
+    right: 312px; 
+    color: #18372C;
+}
+
+.red-star {
+    color: red;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 30px;
+}
+
+.form-input {
+    width: calc(100% - 20px);
+    margin: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid #18372C;
+    color: #18372C;
+}
+
+.expiration-date-square {
+    position: absolute;
+    top: 1660px; 
+    right: 0;
+    width: 455px;
+    height: 55px;
+    background-color: #FFF;
+}
+
+.expiration-date-text {
+    font-size: 23px;
+    position: absolute;
+    top: -25px;
+    transform: translateY(-50%);
+    right: 292px; 
+    color: #18372C;
+}
+
+.cvv-square {
+    position: absolute;
+    top: 1740px; 
+    right: 0;
+    width: 455px;
+    height: 55px;
+    background-color: #FFF;
+}
+
+.cvv-text {
+    font-size: 23px;
+    position: absolute;
+    top: -25px;
+    transform: translateY(-50%);
+    right: 407px; 
+    color: #18372C;
+}
+
+
+.view-order-line {
+    position: absolute;
+    top: 1870px; 
+    right: 0;
+}
+
+.view-order-text {
+    font-size: 32px;
+    color: #18372C;
+    position: absolute;
+    top: -70px; 
+    left: -575px; 
+    z-index: 1;
+    font-weight: 600; 
+            
+}
+
+.view-order-line::before {
+    content: '';
+    width: 575px;
+    height: 2px;
+    background-color: #18372C;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    z-index: 0;
+}
+
+
+
+.order-frame {
+    width: 550px;
+    height: 291px;
+    background-color: #FFF;
+    margin: 20px 0; 
+    position: absolute;
+    top: 2020px; 
+    right: 20px; 
+    transform: translateY(-50%); 
+    z-index: 1;
+    border: 2px solid #18372C;
+    
+}
+
+.order-frame img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.order-number {
+    position: absolute;
+    top: 10px; 
+    left: 10px; 
+    font-size: 24px;
+    color: #18372C;
+    font-weight: bold;
+    z-index: 2; 
+}
+
+
+.order-frame .product-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.order-frame .product-name {
+    font-weight: bold;
+    margin-right: 20px; 
+}
+
+.order-frame .product-price {
+    color: #18372C; 
+    margin-left: 50px; 
+}
+
+
+.required-fields {
+    text-align: left;
+    margin-top: 10px; 
+}
+
+.required-text {
+    font-size: 24px;
+    color: red;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.red-star {
+    color: red;
+    font-size: 20px;
+    margin-right: 5px; 
+}
+
+
+
+.button-container {
+    text-align: center;
+    margin-top: 180px; 
+}
+
+.buy-button {
+    text-align: center;
+    font-weight: bold;
+    font-size: 21px;
+    background-color: #B5BFB5;
+    color: #18372C;
+    border: #18372C;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 1px;
+    height: 50px;
+    width: 216px; 
+    cursor: pointer;
+    transition: opacity 0.15s;
+    transition: box-shadow 0.15s;
+    margin-right: 10px;
+    margin-top: auto; 
+}
+
+
+
+
+
+ @media only screen and (max-width: 768px) {
+            .lines {
+                flex-direction: column;
+                margin-top: 20px;
+            }
+
+            .line {
+                width: 100%;
+                margin-top: 20px;
+            }
+
+            .contact-info-text,
+            .shipping-info-text,
+            .payment-text {
+                display: block;
+                order: 7;
+                margin-top: 20px; 
+            }
+
+            .payment-images,
+            .card-number-square,
+            .name-on-card-square,
+            .expiration-date-square,
+            .cvv-square {
+                order: 8; 
+                margin-top: 20px; 
+            }
+
+            .button-container {
+                text-align: center;
+                margin-top: 500px; 
+                margin-bottom: 80px; 
+            }
+
+            .contact-info-text,
+            .view-order-text,
+            .shipping-info-text,
+            .payment-text,
+            .view-order-line {
+                display: none !important; 
+            }
+
+            .country-square,
+            .card-number-square,
+            .name-on-card-square,
+            .expiration-date-square,
+            .cvv-square,
+            .view-order-line,
+            .required-fields {
+                order: unset; 
+            }
+        }
+
+       
+        @media only screen and (max-width: 480px) {
+            .lines {
+                margin-top: 10px;
+            }
+
+            .line {
+                margin-top: 10px;
+            }
+
+            .payment-text,
+            .view-order-line {
+                display: none !important; 
+            }
+
+            .payment-text {
+                margin-top: 10px; 
+            }
+
+            .payment-images,
+            .card-number-square,
+            .name-on-card-square,
+            .expiration-date-square,
+            .cvv-square {
+                order: unset; 
+                margin-top: 10px; 
+            }
+        }
+
+        
