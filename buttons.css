@@ -1,0 +1,163 @@
+.alljackets-button {
+    text-align: center;
+    font-weight: bold;
+    font-size: 21px;
+    background-color:#B5BFB5; 
+    color:#18372C;
+    border: #18372C;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 1px;
+    height: 75px;
+    width: 265px; 
+    cursor: pointer; 
+    transition: opacity 0.15s;
+    transition: box-shadow 0.15s;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+
+  }
+
+  .alljackets-button:hover {
+    background-color: #7a9c7a;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  .alljackets-button:active {
+    opacity: 0.7;
+  }
+
+  .newcollection-button {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    background-color: #B5BFB5;
+    color: #18372C;
+    border: #18372C;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 1px;
+    height: 82px;
+    width: 360px; 
+    cursor: pointer;
+    transition: opacity 0.15s;
+    transition: box-shadow 0.15s;
+    margin-right: 10px;
+
+  }
+
+  .newcollection-button:hover {
+    background-color: #7a9c7a;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  .newcollection-button:active {
+    opacity: 0.7;
+  }
+
+  .viewcollection-button {
+    text-align: center;
+    font-weight: bold; 
+    font-size: 36px;
+    background-color: #B5BFB5;
+    color: #18372C;
+    border: #18372C;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 1px;
+    height: 131px;
+    width: 455px; 
+    cursor: pointer;
+    transition: opacity 0.15s;
+    transition: box-shadow 0.15s;
+    margin-right: 10px;
+    margin-top: 20px; 
+    margin-left: 45px;
+    }
+
+  
+
+  .viewcollection-button:hover {
+    background-color: #7a9c7a;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  .viewcollection-button:active {
+    opacity: 0.7;
+  }
+
+  .addtocart-button {
+    text-align: center;
+    font-weight: bold;
+    font-size: 21px;
+    background-color: #B5BFB5;
+    color: #18372C;
+    border: #18372C;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 1px;
+    height: 50px;
+    width: 216px; 
+    cursor: pointer;
+    transition: opacity 0.15s;
+    transition: box-shadow 0.15s;
+    margin-right: 10px;
+    margin-top: auto;
+  }
+
+  .addtocart-button:hover {
+    background-color: #7a9c7a;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  .addtocart-button:active {
+    opacity: 0.7;
+  }
+
+
+  .buttons-container {
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px; 
+  }
+
+  .buttons-container button {
+    margin: 10px; 
+  }
+
+  .buttons-container img {
+    vertical-align: middle;
+  }
+
+
+
+
+  @media only screen and (min-width: 1200px) {
+    .alljackets-button,
+    .newcollection-button,
+    .viewcollection-button,
+    .addtocart-button {
+        margin-right: 20px;
+    }
+}
+
+
+@media only screen and (max-width: 1199px) and (min-width: 768px) {
+    .alljackets-button,
+    .newcollection-button,
+    .viewcollection-button,
+    .addtocart-button {
+        margin-right: 15px;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .alljackets-button,
+    .newcollection-button,
+    .viewcollection-button,
+    .addtocart-button {
+        margin-right: 0;
+    }
+}
