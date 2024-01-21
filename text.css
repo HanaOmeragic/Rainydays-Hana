@@ -1,0 +1,47 @@
+.newcollection-title {
+font-family: 'akshar';
+font-size: 40px;
+font-weight: semi-bold;
+text-align: center;
+width: 450px;
+line-height: 48px;
+color: #18372C
+
+}
+
+.all-jackets-text {
+    text-align: center;
+    font-size: 36px;
+    color: #18372C; 
+    margin-top: 20px; 
+    font-weight: bold;
+}
+
+.checkout-text {
+    text-align: center;
+    font-size: 36px;
+    color: #18372C; 
+    margin-top: 20px; 
+    font-weight: bold;
+}
+
+.aboutus-text {
+    text-align: center;
+    font-size: 36px;
+    color: #18372C; 
+    margin-top: 20px; 
+    font-weight: bold;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .newcollection-title {
+        width: 100%; 
+    }
+    
+    .all-jackets-text,
+    .checkout-text,
+    .aboutus-text {
+        font-size: 24px; 
+    }
+}
