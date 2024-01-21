@@ -1,0 +1,11 @@
+@media screen and (max-width: 768px) {
+    .menu-container {
+        visibility: hidden;
+        height: 0;
+        border: none !important;
+    }
+
+    .line {
+        display: none !important;
+    }
+}
